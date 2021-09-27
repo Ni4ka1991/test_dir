@@ -14,5 +14,8 @@ from ui.index import *
 
 system ("clear")
 
-oi = getOrdetItem( 23, 999 )
+oi = OrderItem( 12345, 4, 999 )
+
+#oi2 = oirf.getOrderItem( 4, 999 )
+
 print(oi)

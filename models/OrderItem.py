@@ -53,7 +53,7 @@ class OrderItem:
     
     
     def __str__(self):
-        return f" item: {self._id:6}; itemId: {self._itemId:12} X {self._quantity}"
+        return f"CreatedId: {self._id:6}; itemId: {self._itemId:6} X quantity: {self._quantity}"
 
     def __repr__ ( self ):
         return self.__str__()
